@@ -1,0 +1,166 @@
+input{ 
+    display: none;
+}
+label{
+    display: none;
+}
+header{
+    height: 100px;
+    max-width: 1600px;
+    width: 100%;
+    background-color: #2b2b2b;
+    z-index: 10;
+    background-image: url(../../images/header/header-back.png);
+    position: sticky;
+    top: 0px;
+////menu---------------------------------------
+>div.menu{
+    width: 100%;
+display: flex;
+justify-content: center;
+
+
+>div.right{
+    padding: 0 30px;
+    width: 180px;
+    height: 80px;
+    
+>a{
+   
+   height: 153px;
+    >img{
+      padding-top: calc(100px - (105px) / 2 - 8px);
+      width: 170px;
+      margin: 0 auto;
+    }
+}
+}
+>div.left{
+width: 780px;
+height: 80px;
+display: flex;
+justify-content: center; 
+
+>nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+height: 80px; 
+width: inherit;
+
+    >ul{
+        padding-right: 0;
+padding-top: 40px;
+height: 40px;
+width: inherit;
+line-height: 40px;
+display: flex;
+justify-content: center;
+
+            >li{
+                display: inline-block;
+                >a{
+                    padding: 6px 15px;
+                    color: var(--menu-gray);
+                    font-family: l;
+                    border-right: 1px solid var(--gray);
+                    font-size: 17px;
+                    transition: 200ms;
+                }
+                >div.contact{
+                    display: none;
+                    background-color: #2b2b2b;
+                    position: absolute;
+                    width: 200px;
+                    height: 120px;
+                    div{
+                        height: 40px;
+                        line-height: 40px;
+                        >a{
+                            padding: 6px 15px;
+                            color: var(--menu-gray);
+                            font-family: l;
+                            font-size: 17px;
+                        }
+                    }
+                    &>div:hover>a{
+                        color: #ffffff;
+        
+                    }
+                }
+                >div.about{
+                    display: none;
+                    background-color: #2b2b2b;
+                    position: absolute;
+                    width: 200px;
+                    height: 280px;
+                    div{
+                        height: 40px;
+                        line-height: 40px;
+                        >a{
+                            padding: 6px 15px;
+                            color: var(--menu-gray);
+                            font-family: l;
+                            font-size: 17px;
+                        }
+                    }
+                    &>div:hover>a{
+                        color: #ffffff;
+        
+                    }
+                }
+                >div.blog{
+                    display: none;
+                    background-color: #2b2b2b;
+                    position: absolute;
+                    width: 200px;
+                    height: 40px;
+                    div{
+                        height: 40px;
+                        line-height: 40px;
+                        >a{
+                            padding: 6px 15px;
+                            color: var(--menu-gray);
+                            font-family: l;
+                            font-size: 17px;
+                        }
+                    }
+                    &>div:hover>a{
+                        color: #ffffff;
+        
+                    }
+                } 
+            }
+            >li.label{
+                display: none;
+            }
+            :nth-of-type(1){
+                >a{
+                    border-right: 0px solid var(--menu-gray);
+                    
+                }
+            
+            }
+            
+            &>li:hover>a{
+                color: #ffffff;
+
+            }
+            &>li.contact:hover>div.contact{
+                display: block;
+
+            }
+            &>li.about:hover>div.about{
+                display: block;
+
+            }
+            &>li.blog:hover>div.blog{
+                display: block;
+
+            }
+            
+        }
+    }
+}
+}
+} 

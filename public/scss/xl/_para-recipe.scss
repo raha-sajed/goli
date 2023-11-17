@@ -1,0 +1,252 @@
+div.para {
+  height: 250px;
+  background-image: url(../../images/contain/recipe-baner-1.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+}
+div.recipe {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  :nth-of-type(1) {
+    color: #ff0000;
+    font-family: m;
+    font-size: 20px;
+  }
+  :nth-of-type(2) {
+    color: #94979a;
+    font-family: l;
+  }
+}
+//////////////////////////////////////////////
+div.recipe2 {
+  background-color: #cde4b0;
+  padding: 60px 0;
+  > div.post {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    > div {
+      width: 320px;
+      margin: 20px 4px;
+      box-shadow: -3px 3px 7px rgba(0, 0, 0, 0.2);
+      background-color: #ffffff;
+      padding-bottom: 30px;
+      > div.text {
+        margin: 0 auto;
+        width: 80%;
+        > h3 {
+          color: #ff0000;
+          padding-top: 20px;
+        }
+        > p {
+          font-size: 14px;
+          color: #7c7d7e;
+          text-align: justify;
+          padding-bottom: 20px;
+        }
+        > a {
+          background-color: #ffffff;
+          border-radius: 8px;
+          padding: 7px 20px;
+          font-size: 15px;
+          border: 1px solid #c8c8c8;
+          color: #7c7d7e;
+          text-align: center;
+          margin: 5px 0;
+        }
+      }
+    }
+  }
+}
+
+//////////////////////////////////////////////
+div.recipe3 {
+  background-color: #ffffff;
+  padding: 60px 0;
+  > div.post {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    > div {
+      width: 320px;
+      margin: 20px 4px;
+      box-shadow: -3px 3px 7px rgba(0, 0, 0, 0.2);
+      background-color: #ffffff;
+      padding-bottom: 30px;
+      > div.img1 {
+        height: 182px;
+        background-image: url(../../images/contain/recipe/recipe-pic3-2.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        > div.circle {
+          width: 50px; 
+          height: 50px;
+          position: absolute;
+          top: calc(50% - 50px / 2);
+          right: calc(50% - 50px / 2);
+          background-color: black;
+          border-radius: 50%;
+          opacity: 0.5;
+          cursor: pointer;
+          >div.triangle{
+            width: 20px;
+            height: 20px;
+            box-sizing: border-box;
+            border-left: 20px solid #ffffff;
+            border-top: 15px solid #000000;
+            border-right: 0px solid #000000;
+            border-bottom: 15px solid #000000;
+            position: absolute;
+           top: calc(50% - 30px / 2);
+           right: calc(50% - 25px / 2);
+          }
+        }
+        >img{
+          width: 32px;
+          height: 32px;
+          position: absolute;
+          top: 10px;
+          right: 10px;
+        }
+        >span{
+          padding: 3px 5px;
+          background-color: rgba(0, 0, 0, 0.613);
+          position: absolute;
+          font-size: 13px;
+          right: calc(100% - 50px );
+          top: 5px;
+          border-radius: 20px;
+          color: #ffffff;
+        }
+      }
+      > div.img2 {
+        height: 182px;
+        background-image: url(../../images/contain/recipe/recipe-pic2-2.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        > div.circle {
+          width: 50px; 
+          height: 50px;
+          position: absolute;
+          top: calc(50% - 50px / 2);
+          right: calc(50% - 50px / 2);
+          background-color: black;
+          border-radius: 50%;
+          opacity: 0.5;
+          cursor: pointer;
+          >div.triangle{
+            width: 20px;
+            height: 20px;
+            box-sizing: border-box;
+            border-left: 20px solid #ffffff;
+            border-top: 15px solid #000000;
+            border-right: 0px solid #000000;
+            border-bottom: 15px solid #000000;
+            position: absolute;
+           top: calc(50% - 30px / 2);
+           right: calc(50% - 25px / 2);
+          }
+        }
+        >img{
+          width: 32px;
+          height: 32px;
+          position: absolute;
+          top: 10px;
+          right: 10px;
+        }
+        >span{
+          padding: 3px 5px;
+          background-color: rgba(0, 0, 0, 0.613);
+          position: absolute;
+          font-size: 13px;
+          right: calc(100% - 50px );
+          top: 5px;
+          border-radius: 20px;
+          color: #ffffff;
+        }
+      }
+      > div.img3 {
+        height: 182px;
+        background-image: url(../../images/contain/recipe/recipe-pic1-2.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        > div.circle {
+          width: 50px; 
+          height: 50px;
+          position: absolute;
+          top: calc(50% - 50px / 2);
+          right: calc(50% - 50px / 2);
+          background-color: black;
+          border-radius: 50%;
+          opacity: 0.5;
+          cursor: pointer;
+          >div.triangle{
+            width: 20px;
+            height: 20px;
+            box-sizing: border-box;
+            border-left: 20px solid #ffffff;
+            border-top: 15px solid #000000;
+            border-right: 0px solid #000000;
+            border-bottom: 15px solid #000000;
+            position: absolute;
+           top: calc(50% - 30px / 2);
+           right: calc(50% - 30px / 2);
+          }
+        }
+        >img{
+          width: 32px;
+          height: 32px;
+          position: absolute;
+          top: 10px;
+          right: 10px;
+        }
+        >span{
+          padding: 3px 5px;
+          background-color: rgba(0, 0, 0, 0.613);
+          position: absolute;
+          font-size: 13px;
+          right: calc(100% - 50px );
+          top: 5px;
+          border-radius: 20px;
+          color: #ffffff;
+        }
+      }
+      > div.text {
+        margin: 0 auto;
+        width: 80%;
+        > h3 {
+          color: #ff0000;
+          padding-top: 20px;
+        }
+        > p {
+          font-size: 14px;
+          color: #7c7d7e;
+          text-align: justify;
+          padding-bottom: 20px;
+        }
+        > a {
+          background-color: #ffffff;
+          border-radius: 8px;
+          padding: 7px 20px;
+          font-size: 15px;
+          border: 1px solid #c8c8c8;
+          color: #7c7d7e;
+          text-align: center;
+          margin: 5px 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+div.p {
+  background-color: #ffff;
+  width: 700px;
+  margin: 16px auto;
+  animation: right-to-left 1000ms ease-out;
+  position: relative;
+  > div.about1 {
+    margin-top: 70px;
+
+    > h4 {
+      font-family: m;
+      font-size: 20px;
+      text-align: justify;
+      color: #ff0000;
+    }
+    > p {
+      color: #818588;
+      font-family: l;
+      text-align: justify;
+      > span {
+        color: #ff0000;
+      }
+    }
+  }
+}
+//_______________-----------------_________________---------------________________--------------------________________________-----------------______________---------------____________-
+div.pastel {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 130px;
+  animation: big 300ms linear;
+
+  > div {
+    padding: 0 5px;
+    > img {
+      width: 190px;
+    }
+    > div {
+      text-align: center;
+      padding-bottom: 8px;
+      color: #585858;
+      font-size: 17px;
+    }
+    >div.line{
+        height: 1px;
+        padding: 0;
+        background-color: #c7cacc;
+    }
+  }
+}
+div.line1{
+    width: 100%;
+    height: 1px;
+    background-color: #94979a;
+    margin-top: 100px;
+  }  

@@ -1,0 +1,36 @@
+div.p {
+    background-color: #ffff;
+    width: 700px;
+    margin: 16px auto;
+    animation: right-to-left 1000ms ease-out;
+    position: relative;
+    > div.about1 {
+      margin-top: 70px;
+  
+      > h4 {
+        font-family: m;
+        font-size: 20px;
+        text-align: justify;
+        color: #ff0000;
+      }
+      > p {
+        color: #818588;
+        font-family: l;
+        text-align: justify;
+        > span {
+          color: #ff0000;
+        }
+      }
+    }
+   
+  }
+  //_______________-----------------_________________---------------________________--------------------________________________-----------------______________---------------____________-
+  div.pastel {
+    display: none;
+    }
+    div.line1{
+        width: 100%;
+        height: 1px;
+        background-color: #94979a;
+        margin-top: 140px;
+      }

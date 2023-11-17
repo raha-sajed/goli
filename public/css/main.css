@@ -1,0 +1,86 @@
+@import "./xl/xl.css" screen and (min-width: 1025px);
+@import "./lg/lg.css" screen and (min-width: 1000px) and (max-width: 1025px);
+@import "./mdm/mdm.css" screen and (min-width: 701px) and (max-width: 1000px);
+@import "./sm/sm.css" screen and (min-width: 480px) and (max-width: 700px);
+@import "./xsm/xsm.css" screen and (min-width: 0px) and (max-width: 480px);
+* {
+  margin: 0;
+  direction: rtl;
+  list-style: none;
+  text-decoration: none;
+  font-family: l; }
+
+body {
+  padding: 0 calc((100% - 1600px) / 2);
+  background-color: #d2d2d2; }
+
+div.wrapper {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 1600px;
+  z-index: 0; }
+
+:root {
+  --menu-gray: #afb2b4;
+  --gray: #616263; }
+
+@font-face {
+  font-family: web-m;
+  src: url(../fonts/web-m/IRANSansWebFaNum-Medium.eot);
+  src: url(../fonts/web-m/IRANSansWebFaNum-Medium.woff);
+  src: url(../fonts/web-m/IRANSansWebFaNum-Medium.woff2);
+  src: url(../fonts/web-m/IRANSansWebFaNum-Medium.ttf); }
+
+@font-face {
+  font-family: m;
+  src: url(../fonts/m/IRANSansWeb-Medium.eot);
+  src: url(../fonts/m/IRANSansWeb-Medium.woff);
+  src: url(../fonts/m/IRANSansWeb-Medium.ttf);
+  src: url(../fonts/m/IRANSansWeb-Medium.woff2); }
+
+@font-face {
+  font-family: l;
+  src: url(../fonts/l/IRANSansWeb-Light.eot);
+  src: url(../fonts/l/IRANSansWeb-Light.woff);
+  src: url(../fonts/l/IRANSansWeb-Light.woff2);
+  src: url(../fonts/l/IRANSansWeb-Light.ttf); }
+
+@font-face {
+  font-family: ul;
+  src: url(../fonts/ol/IRANSansWeb-UltraLight.eot);
+  src: url(../fonts/ol/IRANSansWeb-UltraLight.woff);
+  src: url(../fonts/ol/IRANSansWeb-UltraLight.woff2);
+  src: url(../fonts/ol/IRANSansWeb-UltraLight.ttf); }
+
+@keyframes up-to-down {
+  from {
+    top: -100px;
+    opacity: 0.2; }
+  to {
+    top: 80px;
+    opacity: 1; } }
+
+@keyframes right-to-left {
+  0% {
+    right: -100px;
+    opacity: 0; }
+  30% {
+    right: -100px;
+    opacity: 0; }
+  100% {
+    right: 0px;
+    opacity: 1; } }
+
+@keyframes right-to-left-2 {
+  0% {
+    right: -100px;
+    opacity: 0; }
+  100% {
+    right: 0px;
+    opacity: 1; } }
+
+@keyframes big {
+  0% {
+    transform: scale(0.3); }
+  100% {
+    transform: scale(1); } }

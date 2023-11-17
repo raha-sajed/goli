@@ -1,0 +1,170 @@
+input{ 
+    display: none;
+}
+label{
+    display: none;
+}
+header{
+    height: 170px;
+    max-width: 1600px;
+    width: 100%;
+    background-color: #2b2b2b;
+    z-index: 10;
+    background-image: url(../../images/header/header-back.png);
+    position: sticky;
+    top: 0px;
+
+////menu---------------------------------------
+>div.menu{
+display: flex;
+justify-content: center;
+height: inherit;
+flex-wrap: wrap;
+
+>div.right{
+    padding: 0 30px; 
+    width: 100%;
+    height: 130px;
+>a{
+    display: block;
+   margin: 0 auto;
+   width: 170px;
+    >img{
+      padding-top: 15px ;
+      width: 170px;
+      margin: 0 auto;
+    }
+}
+}
+>div.left{
+width: 100%;
+height: 40px;
+display: flex;
+justify-content: center; 
+>input{ 
+    display: none;
+}
+>label{
+    display: none;
+}
+>nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+height: 80px;
+width: inherit;
+
+    >ul{
+height: 40px;
+line-height: 40px;
+width: inherit;
+display: flex;
+justify-content: center;
+
+
+            >li{
+                display: inline-block;
+                >a{
+                    padding: 6px 15px;
+                    color: var(--menu-gray);
+                    font-family: l;
+                    border-right: 1px solid var(--gray);
+                    font-size: 17px;
+                    transition: 200ms;
+                }
+                >div.contact{
+                    display: none;
+                    background-color: #2b2b2b;
+                    position: absolute;
+                    width: 200px;
+                    height: 120px;
+                    div{
+                        height: 40px;
+                        line-height: 40px;
+                        >a{
+                            padding: 6px 15px;
+                            color: var(--menu-gray);
+                            font-family: l;
+                            font-size: 17px;
+                        }
+                    }
+                    &>div:hover>a{
+                        color: #ffffff;
+        
+                    }
+                }
+                >div.about{
+                    display: none;
+                    background-color: #2b2b2b;
+                    position: absolute;
+                    width: 200px;
+                    height: 280px;
+                    div{
+                        height: 40px;
+                        line-height: 40px;
+                        >a{
+                            padding: 6px 15px;
+                            color: var(--menu-gray);
+                            font-family: l;
+                            font-size: 17px;
+                        }
+                    }
+                    &>div:hover>a{
+                        color: #ffffff;
+        
+                    }
+                }
+                >div.blog{
+                    display: none;
+                    background-color: #2b2b2b;
+                    position: absolute;
+                    width: 200px;
+                    height: 40px;
+                    div{
+                        height: 40px;
+                        line-height: 40px;
+                        >a{
+                            padding: 6px 15px;
+                            color: var(--menu-gray);
+                            font-family: l;
+                            font-size: 17px;
+                        }
+                    }
+                    &>div:hover>a{
+                        color: #ffffff;
+        
+                    }
+                } 
+            }
+            
+            :nth-of-type(1){
+                >a{
+                    border-right: 0px solid var(--menu-gray);
+                    
+                }
+            
+            }
+            
+            
+            &>li:hover>a{
+                color: #ffffff;
+
+            }
+            &>li.contact:hover>div.contact{
+                display: block;
+
+            }
+            &>li.about:hover>div.about{
+                display: block;
+
+            }
+            &>li.blog:hover>div.blog{
+                display: block;
+
+            }
+            
+        }
+    }
+}
+}
+} 

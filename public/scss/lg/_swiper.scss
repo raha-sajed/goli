@@ -1,0 +1,41 @@
+swiper-container {
+    padding: 50px 0;
+    width: 100%;
+    max-width: 1600px;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  swiper-slide {
+    
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .autoplay-progress {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--swiper-theme-color);
+  }
+

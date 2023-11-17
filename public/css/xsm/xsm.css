@@ -1,0 +1,768 @@
+input {
+  display: none; }
+
+header {
+  height: 126px;
+  max-width: 1600px;
+  width: 100%;
+  background-color: #2b2b2b;
+  z-index: 10;
+  background-image: url(../../images/header/header-back.png);
+  position: sticky;
+  top: 0px; }
+  header > div.menu {
+    display: flex;
+    justify-content: flex-start;
+    height: inherit;
+    flex-wrap: wrap; }
+    header > div.menu > div.right {
+      width: 100%;
+      height: 124.5px; }
+      header > div.menu > div.right > a {
+        display: block;
+        margin: 0 auto;
+        width: 200px; }
+        header > div.menu > div.right > a > img {
+          padding-top: 15px;
+          width: 170px;
+          margin: 0 auto; }
+    header > div.menu > div.left {
+      width: 100%;
+      height: 0;
+      background-image: url(../../images/header/header-back.png); }
+      header > div.menu > div.left > nav {
+        line-height: 57px;
+        height: 57px;
+        width: inherit;
+        background-image: url(../../images/header/header-back.png); }
+        header > div.menu > div.left > nav > label[for="ham-menu"] {
+          color: var(--menu-gray);
+          font-size: 20px;
+          display: block;
+          cursor: pointer;
+          padding-right: 20px; }
+          header > div.menu > div.left > nav > label[for="ham-menu"] > div {
+            width: 20px;
+            height: 3px;
+            background-color: #6b6b6b;
+            margin-bottom: 3px;
+            border-radius: 5px;
+            transition: 200ms; }
+        header > div.menu > div.left > nav > label[for="close-ham-menu"] {
+          color: var(--menu-gray);
+          font-size: 20px;
+          display: block;
+          cursor: pointer;
+          padding-right: 20px;
+          display: none; }
+          header > div.menu > div.left > nav > label[for="close-ham-menu"] > div {
+            width: 20px;
+            height: 3px;
+            background-color: #6b6b6b;
+            margin-bottom: 3px;
+            border-radius: 5px;
+            transition: 200ms; }
+        header > div.menu > div.left > nav > ul {
+          padding-right: 0;
+          height: 57px;
+          width: inherit;
+          display: none; }
+          header > div.menu > div.left > nav > ul > li {
+            height: 42.5px;
+            line-height: 42px;
+            background-image: url(../../images/header/header-back.png); }
+            header > div.menu > div.left > nav > ul > li > a {
+              width: 90%;
+              padding: 8px 10px;
+              padding-right: 20px;
+              color: var(--menu-gray);
+              font-family: l;
+              font-size: 16px;
+              transition: 200ms;
+              display: block; }
+            header > div.menu > div.left > nav > ul > li > div.contact {
+              display: none; }
+            header > div.menu > div.left > nav > ul > li > div.about {
+              display: none; }
+            header > div.menu > div.left > nav > ul > li > div.blog {
+              display: none; }
+          header > div.menu > div.left > nav > ul > li:hover > a {
+            color: #ffffff; }
+
+#ham-menu:checked ~ ul {
+  display: block; }
+
+#ham-menu:checked ~ label[for="close-ham-menu"] {
+  display: block;
+  color: #ffffff; }
+
+#ham-menu:checked ~ label[for="close-ham-menu"] > div {
+  background-color: #ffffff; }
+
+#ham-menu:checked ~ label[for="ham-menu"] {
+  display: none; }
+
+#close-ham-menu:checked ~ ul {
+  display: none; }
+
+#close-ham-menu:checked ~ label[for="ham-menu"] {
+  display: block; }
+
+#close-ham-menu:checked ~ label[for="close-ham-menu"] {
+  display: none; }
+
+div.container {
+  background-color: #ffffff; }
+  div.container > div.side-co {
+    display: none; }
+
+div.p {
+  background-color: #ffff;
+  width: 90%;
+  margin: 16px auto;
+  animation: right-to-left 1000ms ease-out;
+  position: relative; }
+  div.p > div.about1 {
+    margin-top: 70px; }
+    div.p > div.about1 > h4 {
+      font-family: m;
+      font-size: 20px;
+      text-align: justify;
+      color: #ff0000; }
+    div.p > div.about1 > p {
+      color: #818588;
+      font-family: l;
+      text-align: justify; }
+      div.p > div.about1 > p > span {
+        color: #ff0000; }
+
+div.pastel {
+  display: none; }
+
+div.rice > div.img {
+  width: 100%;
+  margin: 0;
+  padding-top: 20px;
+  z-index: 1; }
+  div.rice > div.img > img {
+    width: inherit; }
+
+div.rice > div.bigline {
+  height: 20px;
+  background-color: #e9d69f;
+  margin-top: -10px; }
+
+div.rice > div.red {
+  margin: 0 auto;
+  width: 100%;
+  margin-top: -20px;
+  position: relative; }
+  div.rice > div.red > div.red-box {
+    width: 100%;
+    height: 100px;
+    background-color: #ed1c24; }
+    div.rice > div.red > div.red-box > h4 {
+      color: #ffff;
+      font-size: 30px;
+      padding-right: 20px;
+      padding-top: 10px;
+      font-family: l; }
+    div.rice > div.red > div.red-box > h6 {
+      color: #ffff;
+      font-size: 17px;
+      padding-right: 20px;
+      font-family: ul; }
+
+div.rice > div.line {
+  width: 100%;
+  height: 1px;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  background-color: #c7cacc;
+  display: none; }
+
+div.rice > div.first-part {
+  margin: 0 auto;
+  width: 90%; }
+  div.rice > div.first-part > div.ro1 {
+    margin-top: 50px;
+    line-height: 35px;
+    text-align: justify;
+    font-family: m;
+    color: #ff0000;
+    font-size: 20px; }
+  div.rice > div.first-part > p {
+    line-height: 35px;
+    text-align: justify;
+    font-family: l;
+    color: #818588; }
+  div.rice > div.first-part > div.links {
+    margin: 30px 0;
+    margin-bottom: 50px; }
+    div.rice > div.first-part > div.links > a {
+      border-radius: 8px;
+      padding: 10px 20px;
+      border: 1px solid #c8c8c8;
+      color: #7c7d7e;
+      text-align: center; }
+
+div.tea > div.img {
+  width: 100%;
+  margin: 0;
+  padding-top: 20px;
+  z-index: 1; }
+  div.tea > div.img > img {
+    width: inherit; }
+
+div.tea > div.bigline {
+  height: 20px;
+  background-color: #e9d69f;
+  margin-top: -10px; }
+
+div.tea > div.red {
+  margin: 0 auto;
+  width: 100%;
+  margin-top: -20px;
+  position: relative; }
+  div.tea > div.red > div.red-box {
+    width: 100%;
+    height: 100px;
+    background-color: #ed1c24; }
+    div.tea > div.red > div.red-box > h4 {
+      color: #ffff;
+      font-size: 30px;
+      padding-right: 20px;
+      padding-top: 10px;
+      font-family: l; }
+    div.tea > div.red > div.red-box > h6 {
+      color: #ffff;
+      font-size: 17px;
+      padding-right: 20px;
+      font-family: ul; }
+
+div.tea > div.line {
+  width: 100%;
+  height: 1px;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  background-color: #c7cacc;
+  display: none; }
+
+div.tea > div.first-part {
+  margin: 0 auto;
+  width: 90%; }
+  div.tea > div.first-part > div.ro1 {
+    margin: 0 auto;
+    margin-top: 50px;
+    line-height: 35px;
+    text-align: justify;
+    font-family: m;
+    color: #ff0000;
+    font-size: 20px; }
+  div.tea > div.first-part > p {
+    line-height: 35px;
+    text-align: justify;
+    font-family: l;
+    color: #818588; }
+    div.tea > div.first-part > p > span {
+      color: #ff0000;
+      font-weight: bold; }
+  div.tea > div.first-part > div.links {
+    margin: 30px 0;
+    margin-bottom: 50px; }
+    div.tea > div.first-part > div.links > a {
+      border-radius: 8px;
+      padding: 10px 20px;
+      border: 1px solid #c8c8c8;
+      color: #7c7d7e;
+      text-align: center; }
+
+div.nut > div.img {
+  width: 100%;
+  margin: 0;
+  padding-top: 20px;
+  z-index: 1; }
+  div.nut > div.img > img {
+    width: inherit; }
+
+div.nut > div.bigline {
+  height: 20px;
+  background-color: #e9d69f;
+  margin-top: -10px; }
+
+div.nut > div.red {
+  margin: 0 auto;
+  width: 100%;
+  margin-top: -20px;
+  position: relative; }
+  div.nut > div.red > div.red-box {
+    width: 100%;
+    height: 100px;
+    background-color: #ed1c24; }
+    div.nut > div.red > div.red-box > h4 {
+      color: #ffff;
+      font-size: 30px;
+      padding-right: 20px;
+      padding-top: 10px;
+      font-family: l; }
+    div.nut > div.red > div.red-box > h6 {
+      color: #ffff;
+      font-size: 17px;
+      padding-right: 20px;
+      font-family: ul; }
+
+div.nut > div.line {
+  width: 100%;
+  height: 1px;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  background-color: #c7cacc;
+  display: none; }
+
+div.nut > div.first-part {
+  margin: 0 auto;
+  width: 90%; }
+  div.nut > div.first-part > div.ro1 {
+    margin-top: 50px;
+    line-height: 35px;
+    text-align: justify;
+    font-family: m;
+    color: #ff0000;
+    font-size: 20px; }
+  div.nut > div.first-part > p {
+    line-height: 35px;
+    text-align: justify;
+    font-family: l;
+    color: #818588; }
+    div.nut > div.first-part > p > span {
+      color: #ff0000;
+      font-weight: bold; }
+  div.nut > div.first-part > div.links {
+    margin: 30px 0;
+    margin-bottom: 50px; }
+    div.nut > div.first-part > div.links > a {
+      border-radius: 8px;
+      padding: 10px 20px;
+      border: 1px solid #c8c8c8;
+      color: #7c7d7e;
+      text-align: center; }
+
+div.para {
+  height: 250px;
+  background-image: url(../../images/contain/recipe-baner-1.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: inherit; }
+
+div.recipe {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 30px; }
+  div.recipe :nth-of-type(1) {
+    color: #ff0000;
+    font-family: m;
+    font-size: 20px; }
+  div.recipe :nth-of-type(2) {
+    color: #94979a;
+    font-family: l; }
+
+div.recipe2 {
+  background-color: #cde4b0;
+  padding: 60px 0; }
+  div.recipe2 > div.post {
+    margin: 0 auto;
+    padding: 0; }
+    div.recipe2 > div.post > div {
+      width: 65%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+      box-shadow: -3px 3px 7px rgba(0, 0, 0, 0.2);
+      background-color: #ffffff;
+      padding-bottom: 30px; }
+      div.recipe2 > div.post > div > img {
+        width: 100%; }
+      div.recipe2 > div.post > div > div.text {
+        margin: 0 auto;
+        width: 80%; }
+        div.recipe2 > div.post > div > div.text > h3 {
+          color: #ff0000;
+          padding-top: 20px; }
+        div.recipe2 > div.post > div > div.text > p {
+          font-size: 14px;
+          color: #7c7d7e;
+          text-align: justify;
+          padding-bottom: 20px; }
+        div.recipe2 > div.post > div > div.text > a {
+          background-color: #ffffff;
+          border-radius: 8px;
+          padding: 7px 20px;
+          font-size: 15px;
+          border: 1px solid #c8c8c8;
+          color: #7c7d7e;
+          text-align: center;
+          margin: 5px 0; }
+    div.recipe2 > div.post > div.p3 {
+      display: none; }
+
+div.recipe3 {
+  background-color: #ffffff;
+  padding: 60px 0; }
+  div.recipe3 > div.post {
+    margin: 0 auto;
+    padding: 0; }
+    div.recipe3 > div.post > div {
+      width: 65%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+      box-shadow: -3px 3px 7px rgba(0, 0, 0, 0.2);
+      background-color: #ffffff;
+      padding-bottom: 30px; }
+      div.recipe3 > div.post > div > div.img1 {
+        height: 182px;
+        background-image: url(../../images/contain/recipe/recipe-pic3-2.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative; }
+        div.recipe3 > div.post > div > div.img1 > div.circle {
+          width: 50px;
+          height: 50px;
+          position: absolute;
+          top: calc(50% - 50px / 2);
+          right: calc(50% - 50px / 2);
+          background-color: black;
+          border-radius: 50%;
+          opacity: 0.5;
+          cursor: pointer; }
+          div.recipe3 > div.post > div > div.img1 > div.circle > div.triangle {
+            width: 20px;
+            height: 20px;
+            box-sizing: border-box;
+            border-left: 20px solid #ffffff;
+            border-top: 15px solid #000000;
+            border-right: 0px solid #000000;
+            border-bottom: 15px solid #000000;
+            position: absolute;
+            top: calc(50% - 30px / 2);
+            right: calc(50% - 30px / 2); }
+        div.recipe3 > div.post > div > div.img1 > img {
+          width: 32px;
+          height: 32px;
+          position: absolute;
+          top: 10px;
+          right: 10px; }
+        div.recipe3 > div.post > div > div.img1 > span {
+          padding: 3px 5px;
+          background-color: rgba(0, 0, 0, 0.613);
+          position: absolute;
+          font-size: 13px;
+          right: calc(100% - 50px);
+          top: 5px;
+          border-radius: 20px;
+          color: #ffffff; }
+      div.recipe3 > div.post > div > div.img2 {
+        height: 182px;
+        background-image: url(../../images/contain/recipe/recipe-pic2-2.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative; }
+        div.recipe3 > div.post > div > div.img2 > div.circle {
+          width: 50px;
+          height: 50px;
+          position: absolute;
+          top: calc(50% - 50px / 2);
+          right: calc(50% - 50px / 2);
+          background-color: black;
+          border-radius: 50%;
+          opacity: 0.5;
+          cursor: pointer; }
+          div.recipe3 > div.post > div > div.img2 > div.circle > div.triangle {
+            width: 20px;
+            height: 20px;
+            box-sizing: border-box;
+            border-left: 20px solid #ffffff;
+            border-top: 15px solid #000000;
+            border-right: 0px solid #000000;
+            border-bottom: 15px solid #000000;
+            position: absolute;
+            top: calc(50% - 30px / 2);
+            right: calc(50% - 30px / 2); }
+        div.recipe3 > div.post > div > div.img2 > img {
+          width: 32px;
+          height: 32px;
+          position: absolute;
+          top: 10px;
+          right: 10px; }
+        div.recipe3 > div.post > div > div.img2 > span {
+          padding: 3px 5px;
+          background-color: rgba(0, 0, 0, 0.613);
+          position: absolute;
+          font-size: 13px;
+          right: calc(100% - 50px);
+          top: 5px;
+          border-radius: 20px;
+          color: #ffffff; }
+      div.recipe3 > div.post > div > div.img3 {
+        height: 182px;
+        background-image: url(../../images/contain/recipe/recipe-pic1-2.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative; }
+        div.recipe3 > div.post > div > div.img3 > div.circle {
+          width: 50px;
+          height: 50px;
+          position: absolute;
+          top: calc(50% - 50px / 2);
+          right: calc(50% - 50px / 2);
+          background-color: black;
+          border-radius: 50%;
+          opacity: 0.5;
+          cursor: pointer; }
+          div.recipe3 > div.post > div > div.img3 > div.circle > div.triangle {
+            width: 20px;
+            height: 20px;
+            box-sizing: border-box;
+            border-left: 20px solid #ffffff;
+            border-top: 15px solid #000000;
+            border-right: 0px solid #000000;
+            border-bottom: 15px solid #000000;
+            position: absolute;
+            top: calc(50% - 30px / 2);
+            right: calc(50% - 30px / 2); }
+        div.recipe3 > div.post > div > div.img3 > img {
+          width: 32px;
+          height: 32px;
+          position: absolute;
+          top: 10px;
+          right: 10px; }
+        div.recipe3 > div.post > div > div.img3 > span {
+          padding: 3px 5px;
+          background-color: rgba(0, 0, 0, 0.613);
+          position: absolute;
+          font-size: 13px;
+          right: calc(100% - 50px);
+          top: 5px;
+          border-radius: 20px;
+          color: #ffffff; }
+      div.recipe3 > div.post > div > div.text {
+        margin: 0 auto;
+        width: 80%; }
+        div.recipe3 > div.post > div > div.text > h3 {
+          color: #ff0000;
+          padding-top: 20px; }
+        div.recipe3 > div.post > div > div.text > p {
+          font-size: 14px;
+          color: #7c7d7e;
+          text-align: justify;
+          padding-bottom: 20px; }
+        div.recipe3 > div.post > div > div.text > a {
+          background-color: #ffffff;
+          border-radius: 8px;
+          padding: 7px 20px;
+          font-size: 15px;
+          border: 1px solid #c8c8c8;
+          color: #7c7d7e;
+          text-align: center;
+          margin: 5px 0; }
+    div.recipe3 > div.post > div.p3 {
+      display: none; }
+
+div.Responsibility {
+  background-color: #105153;
+  border-bottom: 20px solid #e9d69f;
+  width: 100%;
+  height: 600px; }
+  div.Responsibility > div.res {
+    width: 100%;
+    color: #d5ece1;
+    font-size: 18px;
+    padding-top: 250px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid #38e3f0; }
+  div.Responsibility > div.text1 {
+    text-align: center; }
+    div.Responsibility > div.text1 :nth-of-type(1) {
+      width: 100%;
+      color: #009da2;
+      font-size: 30px; }
+    div.Responsibility > div.text1 :nth-of-type(2) {
+      width: 100%;
+      color: #38e3f0;
+      font-size: 20px; }
+  div.Responsibility > div.text2 {
+    text-align: center;
+    color: #bcbec0; }
+  div.Responsibility div.img {
+    width: 100%;
+    text-align: center;
+    color: #bcbec0;
+    margin: 0 auto;
+    margin-top: 10px;
+    box-shadow: -3px 3px 7px rgba(0, 0, 0, 0.2); }
+    div.Responsibility div.img > img {
+      width: 100%; }
+  div.Responsibility div.line {
+    width: 100%;
+    height: 2px;
+    padding: 0;
+    margin: 0;
+    margin-top: -90px;
+    background-color: #aeb1b3; }
+  div.Responsibility div.text-res {
+    width: 90%;
+    height: 290px;
+    margin: 0 auto;
+    margin-top: 120px; }
+    div.Responsibility div.text-res > h3 {
+      color: #ff0000;
+      font-family: m; }
+    div.Responsibility div.text-res > p {
+      margin: 16px 0;
+      line-height: 35px;
+      text-align: justify;
+      color: #818588; }
+      div.Responsibility div.text-res > p > span {
+        color: #ff0000;
+        font-weight: bold; }
+    div.Responsibility div.text-res > a {
+      border-radius: 8px;
+      padding: 10px 20px;
+      border: 1px solid #c8c8c8;
+      color: #7c7d7e;
+      text-align: center; }
+
+footer {
+  margin-top: 550px; }
+  footer > div.social {
+    height: 100px;
+    background-color: #eeefef;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    footer > div.social > a > div.f {
+      width: 55px;
+      height: 55px;
+      background-image: url(../../images/footer/icon1-1.png);
+      opacity: 0.4; }
+    footer > div.social > a > div.lin {
+      width: 55px;
+      height: 55px;
+      background-image: url(../../images/footer/icon2-1.png);
+      opacity: 0.4; }
+    footer > div.social > a > div.inst {
+      width: 55px;
+      height: 55px;
+      background-image: url(../../images/footer/icon3-1.png);
+      opacity: 0.4; }
+    footer > div.social > a > div.tel {
+      width: 55px;
+      height: 55px;
+      background-image: url(../../images/footer/icon4-1.png);
+      opacity: 0.4; }
+    footer > div.social > a > div.apa {
+      width: 55px;
+      height: 55px;
+      background-image: url(../../images/footer/icon5-1.png);
+      opacity: 0.4; }
+    footer > div.social > a > div.gl {
+      width: 55px;
+      height: 55px;
+      background-image: url(../../images/footer/icon6-1.png);
+      opacity: 0.4; }
+  footer div.line {
+    width: 100%;
+    height: 25px;
+    background-color: #ed1c24; }
+  footer div.end {
+    background-image: url(../../images/header/header-back.png);
+    width: 100%;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    footer div.end > div {
+      width: 140px;
+      padding: 0 15px; }
+      footer div.end > div > img {
+        border-bottom: 1px solid gray;
+        padding: 10px; }
+      footer div.end > div > h4 {
+        text-align: center;
+        color: #ffffff;
+        border-bottom: 1px solid gray;
+        padding-bottom: 10px;
+        font-size: 16px;
+        margin-bottom: 20px; }
+      footer div.end > div > a {
+        color: #bcbec0;
+        font-size: 15px;
+        display: block;
+        transition: 200ms; }
+      footer div.end > div > a:hover {
+        color: #ffffff; }
+    footer div.end > div.p4 {
+      display: none; }
+    footer div.end > div.p3 {
+      display: none; }
+  footer div.down {
+    margin-top: -1px;
+    width: 100%;
+    background-image: url(../../images/header/header-back.png);
+    text-align: center;
+    padding-bottom: 50px; }
+    footer div.down > h5 {
+      color: #9f9f9f; }
+    footer div.down > h6 {
+      color: #7b7b7b; }
+    footer div.down :nth-of-type(2) {
+      font-size: 28px;
+      color: #995050; }
+      footer div.down :nth-of-type(2) > span {
+        font-size: 35px;
+        font-weight: bolder; }
+
+swiper-container {
+  padding: 50px 0;
+  width: 100%;
+  max-width: 1600px;
+  height: 100%;
+  margin: 0 auto; }
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+  object-fit: cover; }
+
+.autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--swiper-theme-color); }

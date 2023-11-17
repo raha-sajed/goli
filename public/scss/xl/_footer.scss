@@ -1,0 +1,118 @@
+footer {
+  margin-top: 450px;
+  > div.social {
+    height: 100px;
+    background-color: #eeefef;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    > a {
+      > div.f {
+        width: 55px;
+        height: 55px;
+        background-image: url(../../images/footer/icon1-1.png);
+        opacity: 0.4;
+      }
+    }
+    > a {
+      > div.lin {
+        width: 55px;
+        height: 55px;
+        background-image: url(../../images/footer/icon2-1.png);
+        opacity: 0.4;
+      }
+    }
+    > a {
+      > div.inst {
+        width: 55px;
+        height: 55px;
+        background-image: url(../../images/footer/icon3-1.png);
+        opacity: 0.4;
+      }
+    }
+    > a {
+      > div.tel {
+        width: 55px;
+        height: 55px;
+        background-image: url(../../images/footer/icon4-1.png);
+        opacity: 0.4;
+      }
+    }
+    > a {
+      > div.apa {
+        width: 55px;
+        height: 55px;
+        background-image: url(../../images/footer/icon5-1.png);
+        opacity: 0.4;
+      }
+    }
+    > a {
+      > div.gl {
+        width: 55px;
+        height: 55px;
+        background-image: url(../../images/footer/icon6-1.png);
+        opacity: 0.4;
+      }
+    }
+  }
+  div.line {
+    width: 100%;
+    height: 25px;
+    background-color: #ed1c24;
+  }
+  div.end {
+    background-image: url(../../images/header/header-back.png);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    > div {
+      width: 140px;
+      padding: 0 15px;
+      > img {
+        border-bottom: 1px solid gray;
+        padding: 10px;
+      }
+      > h4 {
+        text-align: center;
+        color: #ffffff;
+        border-bottom: 1px solid gray;
+        padding-bottom: 10px;
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+      > a {
+        color: #bcbec0;
+        font-size: 15px;
+        display: block;
+        transition: 200ms;
+      }
+      & > a:hover {
+        color: #ffffff;
+      }
+    }
+  }
+  div.down{
+    background-image: url(../../images/header/header-back.png);
+    text-align: center;
+    padding-bottom: 50px;
+>h5{
+color: #9f9f9f;
+}
+>h6{
+    
+   color: #7b7b7b;
+  
+}
+:nth-of-type(2){
+    font-size: 28px;
+color: #995050;
+>span{
+    font-size: 35px;
+    font-weight: bolder;
+  }
+}
+  }
+}

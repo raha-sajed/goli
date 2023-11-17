@@ -1,0 +1,66 @@
+div.container {
+    width: 100%;
+  background-color: #ffffff;
+
+    > div.side-co {
+      width: inherit;
+      height: 500px;
+      background-image: linear-gradient(#fbfbfb, #d2d2d2);
+      display: flex;
+      justify-content: center;
+      > div.side-pic {
+        width: 260px;
+        height: 400px;
+        padding-right: 100px;
+        position: relative;
+        top: 80px;
+        background-image: url(../../images/contain/tea-pic1.png);
+        background-repeat: no-repeat;
+        animation-name: up-to-down;
+        animation-duration: 1000ms;
+        animation-timing-function: ease-out;
+        animation-iteration-count: 1;
+      }
+      > div.side-text { 
+        width: 39%;
+        padding-top: 100px;
+        padding-right: 50px;
+        position: relative;
+        animation: right-to-left 1500ms ease-out ;
+        > h1 {
+          color: #ff0000;
+          margin-top: 30px;
+   
+        }
+        > h3 {
+          color: #58595b;
+  
+        }
+        >p {
+          color: #898989;
+          margin-top: 30px;
+          font-size: 16px;
+  
+        }
+        >div{
+          >a{
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 10px 20px;
+            border: 1px solid #c8c8c8;
+            color: #7c7d7e;
+            text-align: center;
+          }
+          margin-top: 30px;
+  
+        }
+      }
+    }
+    >div.line{
+        width: 100%;
+        height: 1px;
+        background-color: #94979a;
+        margin-top: 20px;
+      }
+  }
+  
