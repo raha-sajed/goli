@@ -5,7 +5,7 @@ const About = async () => {
         return `<h4>${elem.title}</h4>
         <p>${elem.p}
         </p>`;
-    });
+});
     document.querySelector(".about1").innerHTML = about.join("");
   };
   export default About;
